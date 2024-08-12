@@ -1,0 +1,30 @@
+div {
+    background-color: lightblue;
+    width: 800px;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content {
+    display: inline;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+}
+
+.description, .ingredients, .steps {
+    display: flex;
+}
+
+.content div h2 {
+    margin: auto 10px;
+}
